@@ -1,0 +1,25 @@
+http://localhost/phpmyadmin/
+user: root
+parola: Summer2024
+
+
+
+
+
+
+
+administratori
+http://localhost/aplicatie_alegeri/dashboard/
+user: admin
+parola: 123456
+
+validatori
+http://localhost/aplicatie_alegeri/results/
+Validator: user10
+Parola: 123456
+
+votanti
+http://localhost/aplicatie_alegeri/
+Users: user1 ... user20
+Parola 123456
+

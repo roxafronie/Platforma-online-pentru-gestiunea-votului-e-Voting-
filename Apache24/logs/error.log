@@ -1,0 +1,27 @@
+Starting the Apache2.2 service
+The Apache2.2 service is running.
+rmine the server's fully qualified domain name, using 10.0.0.109 for ServerName
+[Thu Jan 31 20:30:15 2008] [notice] Apache/2.2.8 (Win32) configured -- resuming normal operations
+[Thu Jan 31 20:30:15 2008] [notice] Server built: Jan 18 2008 00:37:19
+[Thu Jan 31 20:30:15 2008] [notice] Parent: Created child process 756
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.109 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.109 for ServerName
+[Thu Jan 31 20:30:15 2008] [notice] Child 756: Child process is running
+[Thu Jan 31 20:30:15 2008] [notice] Child 756: Acquired the start mutex.
+[Thu Jan 31 20:30:15 2008] [notice] Child 756: Starting 64 worker threads.
+[Thu Jan 31 20:30:15 2008] [notice] Child 756: Starting thread to listen on port 80.
+[Thu Jan 31 20:30:22 2008] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jan 31 20:30:22 2008] [notice] Child 756: Exit event signaled. Child process is ending.
+[Thu Jan 31 20:30:23 2008] [notice] Child 756: Released the start mutex
+[Thu Jan 31 20:30:24 2008] [notice] Child 756: All worker threads have exited.
+[Thu Jan 31 20:30:24 2008] [notice] Child 756: Child process is exiting
+[Thu Jan 31 20:30:24 2008] [notice] Parent: Child process exited successfully.
+Starting the 'apache24' service
+The 'apache24' service is running.
+ssl:warn] [pid 15056:tid 720] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 16 17:54:56.166532 2024] [mpm_winnt:notice] [pid 15056:tid 720] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu May 16 17:54:56.166532 2024] [mpm_winnt:notice] [pid 15056:tid 720] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu May 16 17:54:56.166532 2024] [core:notice] [pid 15056:tid 720] AH00094: Command line: 'C:\\AppServ\\Apache24\\bin\\httpd.exe -d C:/AppServ/Apache24'
+[Thu May 16 17:54:56.181246 2024] [mpm_winnt:notice] [pid 15056:tid 720] AH00418: Parent: Created child process 21084
+[Thu May 16 17:54:56.954129 2024] [ssl:warn] [pid 21084:tid 664] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 16 17:54:56.986290 2024] [mpm_winnt:notice] [pid 21084:tid 664] AH00354: Child: Starting 64 worker threads.

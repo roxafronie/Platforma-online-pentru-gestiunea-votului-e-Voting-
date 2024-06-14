@@ -1,0 +1,810 @@
+2024-05-16T14:54:39.200394Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-05-16T14:54:39.200394Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2024-05-16T14:54:39.294224Z 0 [Note] C:\AppServ\MySQL\bin\mysqld (mysqld 5.7.15-log) starting as process 7612 ...
+2024-05-16T14:54:39.325877Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-16T14:54:39.325877Z 0 [Note] InnoDB: Uses event mutexes
+2024-05-16T14:54:39.325877Z 0 [Note] InnoDB: Memory barrier is not used
+2024-05-16T14:54:39.325877Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-05-16T14:54:39.325877Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2024-05-16T14:54:39.325877Z 0 [Note] InnoDB: Number of pools: 1
+2024-05-16T14:54:39.325877Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-05-16T14:54:39.341571Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2024-05-16T14:54:39.341571Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-16T14:54:39.419669Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-05-16T14:54:39.451375Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.451375Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.451375Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\engine_cost.ibd' OS error: 71
+2024-05-16T14:54:39.466999Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.466999Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.466999Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/engine_cost`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.466999Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/engine_cost` because it could not be opened.
+2024-05-16T14:54:39.466999Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.466999Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.466999Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\gtid_executed.ibd' OS error: 71
+2024-05-16T14:54:39.482671Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.482671Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.482671Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/gtid_executed`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.482671Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/gtid_executed` because it could not be opened.
+2024-05-16T14:54:39.482671Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.482671Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.482671Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\help_category.ibd' OS error: 71
+2024-05-16T14:54:39.482671Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.482671Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.482671Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/help_category`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.482671Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/help_category` because it could not be opened.
+2024-05-16T14:54:39.482671Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.482671Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.498302Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\help_keyword.ibd' OS error: 71
+2024-05-16T14:54:39.498302Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.498302Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.498302Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/help_keyword`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.498302Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/help_keyword` because it could not be opened.
+2024-05-16T14:54:39.498302Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.498302Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.498302Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\help_relation.ibd' OS error: 71
+2024-05-16T14:54:39.498302Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.498302Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.498302Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/help_relation`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.498302Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/help_relation` because it could not be opened.
+2024-05-16T14:54:39.498302Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.513939Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.513939Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\help_topic.ibd' OS error: 71
+2024-05-16T14:54:39.513939Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.513939Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.513939Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/help_topic`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.513939Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/help_topic` because it could not be opened.
+2024-05-16T14:54:39.513939Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.513939Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.513939Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_index_stats.ibd' OS error: 71
+2024-05-16T14:54:39.513939Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.513939Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.526513Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/innodb_index_stats`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.526513Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/innodb_index_stats` because it could not be opened.
+2024-05-16T14:54:39.530084Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.530084Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.530084Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_table_stats.ibd' OS error: 71
+2024-05-16T14:54:39.530084Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.530084Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.530084Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/innodb_table_stats`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.530084Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/innodb_table_stats` because it could not be opened.
+2024-05-16T14:54:39.530084Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.530084Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.530084Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\plugin.ibd' OS error: 71
+2024-05-16T14:54:39.530084Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.530084Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.545721Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/plugin`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.545721Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/plugin` because it could not be opened.
+2024-05-16T14:54:39.545721Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.545721Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.545721Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\server_cost.ibd' OS error: 71
+2024-05-16T14:54:39.545721Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.545721Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.545721Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/server_cost`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.545721Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/server_cost` because it could not be opened.
+2024-05-16T14:54:39.545721Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.545721Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.545721Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\servers.ibd' OS error: 71
+2024-05-16T14:54:39.545721Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.561342Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.561342Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/servers`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.561342Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/servers` because it could not be opened.
+2024-05-16T14:54:39.561342Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.561342Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.561342Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\slave_master_info.ibd' OS error: 71
+2024-05-16T14:54:39.561342Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.561342Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.561342Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/slave_master_info`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.561342Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/slave_master_info` because it could not be opened.
+2024-05-16T14:54:39.561342Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.561342Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.561342Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\slave_relay_log_info.ibd' OS error: 71
+2024-05-16T14:54:39.576964Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.576964Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.576964Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/slave_relay_log_info`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.576964Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/slave_relay_log_info` because it could not be opened.
+2024-05-16T14:54:39.576964Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.576964Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.576964Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\slave_worker_info.ibd' OS error: 71
+2024-05-16T14:54:39.576964Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.576964Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.592620Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/slave_worker_info`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.592620Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/slave_worker_info` because it could not be opened.
+2024-05-16T14:54:39.592620Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.592620Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.592620Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\time_zone.ibd' OS error: 71
+2024-05-16T14:54:39.592620Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.592620Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.592620Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/time_zone`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.608269Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/time_zone` because it could not be opened.
+2024-05-16T14:54:39.608269Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.608269Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.608269Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\time_zone_leap_second.ibd' OS error: 71
+2024-05-16T14:54:39.608269Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.608269Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.608269Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/time_zone_leap_second`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.608269Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/time_zone_leap_second` because it could not be opened.
+2024-05-16T14:54:39.608269Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.608269Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.608269Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\time_zone_name.ibd' OS error: 71
+2024-05-16T14:54:39.608269Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.608269Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.608269Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/time_zone_name`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.623886Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/time_zone_name` because it could not be opened.
+2024-05-16T14:54:39.626397Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.626397Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.626397Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\time_zone_transition.ibd' OS error: 71
+2024-05-16T14:54:39.626397Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.626397Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.626397Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/time_zone_transition`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.626397Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/time_zone_transition` because it could not be opened.
+2024-05-16T14:54:39.626397Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.626397Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.640539Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\time_zone_transition_type.ibd' OS error: 71
+2024-05-16T14:54:39.640539Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.640539Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.640539Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/time_zone_transition_type`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.640539Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/time_zone_transition_type` because it could not be opened.
+2024-05-16T14:54:39.656046Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-16T14:54:39.656046Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-16T14:54:39.671675Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2024-05-16T14:54:39.687347Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-05-16T14:54:39.687347Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-05-16T14:54:39.687347Z 0 [Note] InnoDB: Waiting for purge to start
+2024-05-16T14:54:39.687347Z 0 [ERROR] InnoDB: Failed to find tablespace for table `mysql`.`innodb_index_stats` in the cache. Attempting to load the tablespace with space id 14
+2024-05-16T14:54:39.687347Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.687347Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.687347Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_index_stats.ibd' OS error: 71
+2024-05-16T14:54:39.702927Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.702927Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.702927Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/innodb_index_stats`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.702927Z 0 [ERROR] InnoDB: Failed to find tablespace for table `mysql`.`innodb_table_stats` in the cache. Attempting to load the tablespace with space id 13
+2024-05-16T14:54:39.702927Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:39.702927Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.718552Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_table_stats.ibd' OS error: 71
+2024-05-16T14:54:39.718552Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:39.718552Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:39.726567Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/innodb_table_stats`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:39.750219Z 0 [Note] InnoDB: 5.7.15 started; log sequence number 2491184
+2024-05-16T14:54:39.750219Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-05-16T14:54:39.750219Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\AppServ\MySQL\data\ib_buffer_pool
+2024-05-16T14:54:39.750219Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240516 17:54:39
+2024-05-16T14:54:39.765836Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-05-16T14:54:39.765836Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2024-05-16T14:54:39.781968Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-05-16T14:54:39.781968Z 0 [Note] IPv6 is available.
+2024-05-16T14:54:39.781968Z 0 [Note]   - '::' resolves to '::';
+2024-05-16T14:54:39.781968Z 0 [Note] Server socket created on IP: '::'.
+2024-05-16T14:54:39.890951Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-05-16T14:54:39.890951Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-05-16T14:54:39.890951Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-05-16T14:54:39.890951Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-05-16T14:54:39.890951Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-05-16T14:54:39.937972Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-05-16T14:54:40.295769Z 0 [ERROR] Incorrect definition of table performance_schema.replication_connection_status: expected column 'RECEIVED_TRANSACTION_SET' at position 7 to have type longtext, found type text.
+2024-05-16T14:54:40.327435Z 0 [ERROR] Incorrect definition of table performance_schema.replication_group_member_stats: expected column 'COUNT_TRANSACTIONS_ROWS_VALIDATING' at position 6, found 'COUNT_TRANSACTIONS_VALIDATING'.
+2024-05-16T14:54:40.406119Z 0 [Note] Event Scheduler: Loaded 0 events
+2024-05-16T14:54:40.406119Z 0 [Note] C:\AppServ\MySQL\bin\mysqld: ready for connections.
+Version: '5.7.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-05-16T14:54:43.775435Z 0 [Note] C:\AppServ\MySQL\bin\mysqld: Normal shutdown
+
+2024-05-16T14:54:43.779801Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2024-05-16T14:54:43.780491Z 0 [Note] Shutting down slave threads
+2024-05-16T14:54:43.783052Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2024-05-16T14:54:43.784661Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2024-05-16T14:54:43.787559Z 0 [Note] Binlog end
+2024-05-16T14:54:43.794391Z 0 [Note] Shutting down plugin 'ngram'
+2024-05-16T14:54:43.794391Z 0 [Note] Shutting down plugin 'partition'
+2024-05-16T14:54:43.794391Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2024-05-16T14:54:43.794391Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2024-05-16T14:54:43.794391Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2024-05-16T14:54:43.805194Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2024-05-16T14:54:43.806866Z 0 [Note] Shutting down plugin 'MyISAM'
+2024-05-16T14:54:43.808604Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2024-05-16T14:54:43.810684Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2024-05-16T14:54:43.812761Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2024-05-16T14:54:43.814643Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2024-05-16T14:54:43.816741Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2024-05-16T14:54:43.818295Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2024-05-16T14:54:43.818863Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2024-05-16T14:54:43.818863Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2024-05-16T14:54:43.818863Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2024-05-16T14:54:43.818863Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2024-05-16T14:54:43.818863Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2024-05-16T14:54:43.818863Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2024-05-16T14:54:43.818863Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2024-05-16T14:54:43.835012Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2024-05-16T14:54:43.836541Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2024-05-16T14:54:43.839147Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2024-05-16T14:54:43.841248Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2024-05-16T14:54:43.842821Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2024-05-16T14:54:43.845160Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2024-05-16T14:54:43.847271Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2024-05-16T14:54:43.849212Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2024-05-16T14:54:43.849736Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2024-05-16T14:54:43.849736Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2024-05-16T14:54:43.849736Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2024-05-16T14:54:43.849736Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2024-05-16T14:54:43.849736Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2024-05-16T14:54:43.849736Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2024-05-16T14:54:43.862836Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2024-05-16T14:54:43.865650Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2024-05-16T14:54:43.868569Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2024-05-16T14:54:43.871290Z 0 [Note] Shutting down plugin 'InnoDB'
+2024-05-16T14:54:43.873622Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2024-05-16T14:54:43.875690Z 0 [Note] InnoDB: Starting shutdown...
+2024-05-16T14:54:43.991230Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\AppServ\MySQL\data\ib_buffer_pool
+2024-05-16T14:54:43.991230Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 240516 17:54:43
+2024-05-16T14:54:45.107289Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2491212
+2024-05-16T14:54:45.107289Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-16T14:54:45.107289Z 0 [Note] Shutting down plugin 'MEMORY'
+2024-05-16T14:54:45.107289Z 0 [Note] Shutting down plugin 'CSV'
+2024-05-16T14:54:45.107289Z 0 [Note] Shutting down plugin 'sha256_password'
+2024-05-16T14:54:45.107289Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2024-05-16T14:54:45.107289Z 0 [Note] Shutting down plugin 'binlog'
+2024-05-16T14:54:45.122920Z 0 [Note] C:\AppServ\MySQL\bin\mysqld: Shutdown complete
+
+2024-05-16T14:54:54.545040Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-05-16T14:54:54.545040Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2024-05-16T14:54:54.550782Z 0 [Note] C:\AppServ\MySQL\bin\mysqld (mysqld 5.7.15-log) starting as process 12836 ...
+2024-05-16T14:54:54.558821Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-16T14:54:54.558821Z 0 [Note] InnoDB: Uses event mutexes
+2024-05-16T14:54:54.565829Z 0 [Note] InnoDB: Memory barrier is not used
+2024-05-16T14:54:54.565829Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-05-16T14:54:54.565829Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2024-05-16T14:54:54.565829Z 0 [Note] InnoDB: Number of pools: 1
+2024-05-16T14:54:54.565829Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-05-16T14:54:54.565829Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2024-05-16T14:54:54.565829Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-16T14:54:54.606407Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-05-16T14:54:54.642641Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.642641Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.642641Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\engine_cost.ibd' OS error: 71
+2024-05-16T14:54:54.642641Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.658332Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.658841Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/engine_cost`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.663377Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/engine_cost` because it could not be opened.
+2024-05-16T14:54:54.663377Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.663377Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.663377Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\gtid_executed.ibd' OS error: 71
+2024-05-16T14:54:54.663377Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.663377Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.663377Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/gtid_executed`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.674388Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/gtid_executed` because it could not be opened.
+2024-05-16T14:54:54.674388Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.674388Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.674388Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\help_category.ibd' OS error: 71
+2024-05-16T14:54:54.674388Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.674388Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.674388Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/help_category`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.674388Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/help_category` because it could not be opened.
+2024-05-16T14:54:54.674388Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.690034Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.690034Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\help_keyword.ibd' OS error: 71
+2024-05-16T14:54:54.690034Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.690034Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.697826Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/help_keyword`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.705841Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/help_keyword` because it could not be opened.
+2024-05-16T14:54:54.705841Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.705841Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.705841Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\help_relation.ibd' OS error: 71
+2024-05-16T14:54:54.705841Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.723415Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.727751Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/help_relation`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.737765Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/help_relation` because it could not be opened.
+2024-05-16T14:54:54.737765Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.737765Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.737765Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\help_topic.ibd' OS error: 71
+2024-05-16T14:54:54.737765Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.753247Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.756010Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/help_topic`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.759019Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/help_topic` because it could not be opened.
+2024-05-16T14:54:54.765621Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.768630Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.771811Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_index_stats.ibd' OS error: 71
+2024-05-16T14:54:54.775170Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.775881Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.779570Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/innodb_index_stats`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.779570Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/innodb_index_stats` because it could not be opened.
+2024-05-16T14:54:54.784579Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.784579Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.784579Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_table_stats.ibd' OS error: 71
+2024-05-16T14:54:54.784579Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.784579Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.784579Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/innodb_table_stats`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.784579Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/innodb_table_stats` because it could not be opened.
+2024-05-16T14:54:54.800804Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.802475Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.802475Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\plugin.ibd' OS error: 71
+2024-05-16T14:54:54.802475Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.802475Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.802475Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/plugin`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.812397Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/plugin` because it could not be opened.
+2024-05-16T14:54:54.812397Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.815909Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.816942Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\server_cost.ibd' OS error: 71
+2024-05-16T14:54:54.816942Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.816942Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.816942Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/server_cost`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.816942Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/server_cost` because it could not be opened.
+2024-05-16T14:54:54.816942Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.816942Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.816942Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\servers.ibd' OS error: 71
+2024-05-16T14:54:54.816942Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.816942Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.831951Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/servers`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.831951Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/servers` because it could not be opened.
+2024-05-16T14:54:54.831951Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.831951Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.831951Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\slave_master_info.ibd' OS error: 71
+2024-05-16T14:54:54.831951Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.831951Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.831951Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/slave_master_info`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.847582Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/slave_master_info` because it could not be opened.
+2024-05-16T14:54:54.849330Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.850687Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.852277Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\slave_relay_log_info.ibd' OS error: 71
+2024-05-16T14:54:54.853316Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.854479Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.856114Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/slave_relay_log_info`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.858922Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/slave_relay_log_info` because it could not be opened.
+2024-05-16T14:54:54.860523Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.861629Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.864240Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\slave_worker_info.ibd' OS error: 71
+2024-05-16T14:54:54.865878Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.866970Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.869207Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/slave_worker_info`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.871832Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/slave_worker_info` because it could not be opened.
+2024-05-16T14:54:54.873477Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.875149Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.876779Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\time_zone.ibd' OS error: 71
+2024-05-16T14:54:54.878855Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.879824Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.879824Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/time_zone`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.879824Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/time_zone` because it could not be opened.
+2024-05-16T14:54:54.879824Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.879824Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.879824Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\time_zone_leap_second.ibd' OS error: 71
+2024-05-16T14:54:54.879824Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.879824Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.894833Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/time_zone_leap_second`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.898133Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/time_zone_leap_second` because it could not be opened.
+2024-05-16T14:54:54.899742Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.900898Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.903100Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\time_zone_name.ibd' OS error: 71
+2024-05-16T14:54:54.904718Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.905765Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.908211Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/time_zone_name`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.910898Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/time_zone_name` because it could not be opened.
+2024-05-16T14:54:54.912646Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.914197Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.916246Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\time_zone_transition.ibd' OS error: 71
+2024-05-16T14:54:54.917800Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.919186Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.921317Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/time_zone_transition`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.924993Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/time_zone_transition` because it could not be opened.
+2024-05-16T14:54:54.927103Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.928120Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.930355Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\time_zone_transition_type.ibd' OS error: 71
+2024-05-16T14:54:54.931930Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.933494Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.935070Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/time_zone_transition_type`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.938274Z 0 [Warning] InnoDB: Ignoring tablespace `mysql/time_zone_transition_type` because it could not be opened.
+2024-05-16T14:54:54.941477Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-16T14:54:54.943027Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-16T14:54:54.953583Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2024-05-16T14:54:54.958953Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-05-16T14:54:54.960834Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-05-16T14:54:54.960834Z 0 [Note] InnoDB: Waiting for purge to start
+2024-05-16T14:54:54.962743Z 0 [ERROR] InnoDB: Failed to find tablespace for table `mysql`.`innodb_table_stats` in the cache. Attempting to load the tablespace with space id 13
+2024-05-16T14:54:54.963332Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.963332Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.963332Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_table_stats.ibd' OS error: 71
+2024-05-16T14:54:54.972338Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.972338Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.972338Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/innodb_table_stats`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:54.972338Z 0 [ERROR] InnoDB: Failed to find tablespace for table `mysql`.`innodb_index_stats` in the cache. Attempting to load the tablespace with space id 14
+2024-05-16T14:54:54.972338Z 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-05-16T14:54:54.972338Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.972338Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_index_stats.ibd' OS error: 71
+2024-05-16T14:54:54.972338Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-05-16T14:54:54.987971Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2024-05-16T14:54:54.987971Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `mysql/innodb_index_stats`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2024-05-16T14:54:55.019627Z 0 [Note] InnoDB: 5.7.15 started; log sequence number 2491212
+2024-05-16T14:54:55.019627Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\AppServ\MySQL\data\ib_buffer_pool
+2024-05-16T14:54:55.019627Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-05-16T14:54:55.019627Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240516 17:54:55
+2024-05-16T14:54:55.019627Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-05-16T14:54:55.019627Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2024-05-16T14:54:55.019627Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-05-16T14:54:55.019627Z 0 [Note] IPv6 is available.
+2024-05-16T14:54:55.019627Z 0 [Note]   - '::' resolves to '::';
+2024-05-16T14:54:55.019627Z 0 [Note] Server socket created on IP: '::'.
+2024-05-16T14:54:55.035258Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-05-16T14:54:55.035258Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-05-16T14:54:55.035258Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-05-16T14:54:55.035258Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-05-16T14:54:55.035258Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-05-16T14:54:55.053073Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-05-16T14:54:55.067057Z 0 [ERROR] Incorrect definition of table performance_schema.replication_connection_status: expected column 'RECEIVED_TRANSACTION_SET' at position 7 to have type longtext, found type text.
+2024-05-16T14:54:55.067057Z 0 [ERROR] Incorrect definition of table performance_schema.replication_group_member_stats: expected column 'COUNT_TRANSACTIONS_ROWS_VALIDATING' at position 6, found 'COUNT_TRANSACTIONS_VALIDATING'.
+2024-05-16T14:54:55.082569Z 0 [Note] Event Scheduler: Loaded 0 events
+2024-05-16T14:54:55.082569Z 0 [Note] C:\AppServ\MySQL\bin\mysqld: ready for connections.
+Version: '5.7.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-05-16T15:02:47.039527Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.047054Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.047054Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.106042Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.111380Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.112386Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages_localization` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.153935Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.153935Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.153935Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages_url_slugs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.201567Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.209566Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.209566Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_define_url_slugs_categories` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.250444Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.261008Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.261008Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.306808Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.314815Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.314815Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.348137Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.363207Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.367490Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_options` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.403200Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.411263Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.411263Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_options_to_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.451010Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.459024Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.461539Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_to_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.506964Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.506964Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.506964Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_types` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.556185Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.582335Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.582335Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.588845Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_to_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.628744Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.633630Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.634253Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_types` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.670147Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.678465Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.679972Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_validation_commissions` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.718758Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.718758Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.726769Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_languages` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.761941Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.766496Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.768013Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_sessions` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.807001Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.807001Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.815781Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.855263Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.855263Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.862279Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users_admin` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.901712Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.911230Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:47.911230Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users_admin_roles` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:47.998954Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.000467Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.010170Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.014782Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:48.019604Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.019604Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:48.120535Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.120535Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.132101Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.136613Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages_localization` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:48.144680Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.148310Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages_localization` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:48.218332Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.218332Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.234027Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.235656Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages_url_slugs` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:48.247702Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.248655Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages_url_slugs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:48.368236Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.369483Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.380186Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.385192Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_define_url_slugs_categories` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:48.398773Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.402025Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_define_url_slugs_categories` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:48.505608Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.505608Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.515233Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.521245Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:48.532185Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.539657Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:48.651296Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.651296Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.665764Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.667783Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:48.679907Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.685807Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:48.804486Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.804486Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.816873Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.821191Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_options` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:48.833369Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.835093Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_options` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:48.948673Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.952378Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.961546Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.965438Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_options_to_users` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:48.968579Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:48.968579Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_options_to_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:49.070640Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.070640Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.084959Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.087365Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_to_users` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:49.102594Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.102594Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_to_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:49.205061Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.205061Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.223080Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.223750Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_types` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:49.238765Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.239385Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_types` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:49.254957Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.254957Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_results_actions` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:49.319256Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.327348Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.335676Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.335676Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_results_actions` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:49.351838Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.351838Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_results_actions` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:49.464490Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.466531Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.478949Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.483798Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_to_users` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:49.484746Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.484746Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_to_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:49.581866Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.585111Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.593141Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.598992Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_types` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:49.601510Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.609528Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_types` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:49.701372Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.701372Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.715287Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.715976Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_validation_commissions` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:49.732247Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.734891Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_validation_commissions` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:49.834259Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.836145Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.845246Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.849144Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_languages` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:49.852163Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.860891Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_languages` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:49.948320Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.948320Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.963503Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.966643Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_sessions` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:49.966643Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:49.966643Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_sessions` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:50.085252Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.085252Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.098540Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.102450Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:50.110531Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.110531Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:50.214709Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.217400Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.255902Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.255902Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users_admin` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:50.267082Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.271850Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users_admin` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:50.367703Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.367703Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.384562Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.386571Z 22 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users_admin_roles` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:02:50.394579Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.399234Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users_admin_roles` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:50.434798Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.434798Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.441572Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:50.466110Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.467626Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.483479Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.485247Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.492260Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.533244Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.533244Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.541315Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:50.567241Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.569114Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.584419Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.585116Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.592979Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.633724Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.633724Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.633724Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:50.664983Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.665821Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.684020Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.688892Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.688892Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.734312Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.734312Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.739794Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:50.762638Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.765715Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.781747Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.784330Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.784330Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.819381Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.828084Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.832690Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:50.859016Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.867375Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.869485Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.882486Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.889997Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.938700Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.938700Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.938700Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:50.966219Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.972510Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.985455Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.988522Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:50.996032Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.032246Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.036806Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.036806Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:51.051614Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.065259Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.078101Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.082629Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.084638Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.124619Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.124619Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.132475Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:51.149224Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.149224Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.165696Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.166204Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.173300Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.205877Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.215898Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.220706Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:51.267398Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.267398Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.287369Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.289235Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.294755Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.333667Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.333667Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.333667Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:51.360842Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.366184Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.378032Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.381822Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.383330Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.423291Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.423291Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.423291Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:51.451798Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.451798Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.471702Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.471702Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.479752Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.517041Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.517041Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.517041Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:51.549543Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.552083Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.565779Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.568296Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.568296Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.601805Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.608819Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.608819Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:51.636906Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.636906Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.651437Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.651437Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.665307Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.698987Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.705996Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.705996Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:51.732504Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.734278Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.746422Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.748945Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.754544Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.790493Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.790493Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.799290Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:51.825397Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.826411Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.839084Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.839084Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.848509Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.883213Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.887220Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.887220Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:51.911538Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.916290Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.927528Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.933413Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.935645Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.983156Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.983749Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:51.983749Z 22 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`#sql-3224_16` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:52.016140Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:52.016140Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:52.033681Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:52.033681Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:52.039696Z 22 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.383859Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.399490Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.400001Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.415510Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages_url_slugs` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.415510Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.432460Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_define_url_slugs_categories` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.445106Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.447220Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.461968Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.464021Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.476264Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.476264Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_options` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.492281Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.497086Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_options_to_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.509502Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.511937Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_to_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.526050Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.529518Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_types` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.542642Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.545419Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_results_actions` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.557690Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.559957Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_to_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.571476Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.575439Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_types` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.585374Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.591204Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_validation_commissions` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.598610Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.601120Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_languages` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.614144Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.617211Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.626271Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.633284Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users_admin` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:02:54.645160Z 26 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:02:54.648891Z 26 [ERROR] InnoDB: Fetch of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users_admin_roles` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-05-16T15:03:12.017149Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:03:12.017847Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_types` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:03:22.030736Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:03:22.032980Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:03:32.042912Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:03:32.042912Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_to_users` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:03:42.044276Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:03:42.044276Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_options` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:03:52.050808Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:03:52.050808Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_validation_commissions` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:04:02.068095Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:04:02.070112Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:04:12.074021Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:04:12.074877Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:04:22.089527Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:04:22.090890Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_options_to_users` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:04:32.104417Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:04:32.104417Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users_admin` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:04:42.108203Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:04:42.108203Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_content_pages_url_slugs` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:04:52.112923Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:04:52.112923Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_users_admin_roles` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:05:02.121437Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:05:02.121437Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots_to_users` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:05:12.134450Z 0 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:05:12.134450Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `aplicatie_alegeri`.`tbl_elections_ballots` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-05-16T15:53:50.411789Z 94 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:53:50.440582Z 94 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:53:50.443145Z 94 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:53:50.474448Z 94 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:55:56.202659Z 140 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T15:55:56.215693Z 140 [ERROR] InnoDB: Tablespace for table `mysql`.`innodb_table_stats` is missing.
+2024-05-16T16:00:00.697089Z 166 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2024-05-16T16:01:01.546509Z 169 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2024-05-16T17:57:37.502232Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5834489ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-16T18:01:33.073050Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28170ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-21T17:01:54.894956Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 428141900ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

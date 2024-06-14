@@ -1,0 +1,146 @@
+body {
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+header {
+	z-index: 100;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	padding: 5px 0;
+	transition: all 0.8s ease 0s;
+	background: #000;
+}
+
+.navbar-nav .nav-item a {
+	color: #fff;
+}
+
+.navbar-nav .nav-item.active a {
+	color: #adadad;
+}
+
+.navbar-nav .nav-item a:hover {
+	color: #e8e8e8;
+}
+
+.navbar-toggler i {
+	font-size: 2rem;
+	color: #fff;
+}
+
+.navbar-nav.navbar-account .nav-link {
+	text-align: right;
+	padding: 0.25rem 1rem;
+}
+
+main {
+	position: relative;
+	z-index: 10;
+}
+
+section {
+	position: relative;
+	overflow: hidden;
+	padding: 4.5rem 0;
+}
+
+section h2,
+section h3 {
+	font-size: 1.5rem;
+}
+
+section h2 {
+	color: #303030;
+}
+
+section h3 {
+	margin-bottom: 0;
+	color: #575757;
+}
+
+section h4 {
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+section p {
+	font-size: 0.875rem;
+}
+
+section .lead {
+	margin-bottom: 0;
+	font-size: 1rem;
+}
+
+section p,
+section ul li {
+	line-height: 1.5;
+	color: #656565;
+}
+
+section a {
+	color: #303030
+}
+
+section a:hover {
+	color: #575757;
+}
+
+.section-account {
+	max-width: 480px;
+	margin: 0 auto;
+	padding: 2em;
+	background: #fff;
+	color: #dadada;
+}
+
+.section-account .avatar {
+	z-index: 9;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 20px;
+	border-radius: 50%;
+	padding: 15px;
+	color: #000;
+}
+
+.section-account .avatar i {
+	font-size: 62px;
+}
+
+.section-account h4 {
+	margin-bottom: 1em;
+	font-size: 1.5rem;
+	color: #000;
+}
+
+.section-elections .card-header h2 {
+	color: #303030;
+}
+
+.section-elections h2 ~ h4 {
+	font-size: 1.25rem;
+}
+
+.section-elections .card-body p,
+.section-elections .row:not(.fdb-heading) [class*="col"] p:not([class*="text"]):not([class*="alert"]) {
+	margin-bottom: 0;
+	color: #6d6d6d;
+}
+
+.section-elections form > .row ~ div:not(.alert-zone) div[class*="text"],
+.section-elections form > .row ~ div:not(.alert-zone) div[class*="alert"],
+.section-elections form > .row div div[class*="text"],
+.section-elections form > .row div div[class*="alert"] {
+	margin-top: 0.5em;
+	margin-bottom: 0;
+	padding: 0.25em 0.5em 0.4em;
+	font-size: 0.875rem;
+}
